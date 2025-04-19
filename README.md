@@ -21,7 +21,9 @@ php artisan migrate
 
 📄 License
 This project is free to use and released solely for educational purposes.
-```bash
+
+
+```
 
 🌐 Contact
 If you'd like to get in touch, visit my website: Shahin.page
