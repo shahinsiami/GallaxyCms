@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+}
+.cursor{
+    cursor: pointer;
+}
+
+/*owl*/
+.owl-carousel{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background-color: transparent !important;
+}
+
+.owl-next {
+    background-image: url('/photo/niksan/right.png')!important;
+    background-size: cover;
+    position: absolute;
+    bottom:50%;
+    left: -5%;
+    width: 64px;
+    height: 64px;
+    transition: 1s ease all;
+}
+.owl-next:hover{
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+.owl-next span{
+    opacity: 0;
+}
+.owl-next:focus{
+    outline: none;
+}
+.owl-prev {
+    background-image: url('/photo/niksan/left.png')!important;
+    background-size: cover;
+    position: absolute;
+    bottom:50%;
+    right: -5%;
+    width: 64px;
+    height: 64px;
+    transition: 1s ease all;
+}
+.owl-prev:hover{
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+.owl-prev span{
+    opacity: 0;
+}
+.owl-prev:focus{
+    outline: none;
+}
+/**/
+/*carousel-scroll-2*/
+.carousel-background .owl-stage-outer{
+    background-color: #f2e145;
+}
+/*carousel-scroll-2*/
+/*paginate*/
+.pagination {
+    /*direction: rtl;*/
+    position: relative;
+    color: #fff877;
+    text-align: center;
+    font-family: Yekan;
+    font-size: 1em;
+    background: #05b43a; /* Old browsers */
+    height: 30px;
+    align-items: center;
+    display: flex;
+    width: 160px;
+    z-index: 1;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+}
+.pagination a {
+    font-size: 0.9em;
+    color: #303030;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 3px;
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.paginationactive {
+    border-bottom: 1px solid #f2c20f;
+}
+
+.prevpage {
+    padding-bottom: 3px;
+}
+
+.nextpage {
+    padding-bottom: 3px;
+}
+
+/*paginate*/
+/*fengyCarousel*/
+.left-carousel .carousel__control  {
+    possition:absolute;
+    background:red !important;
+    top: 70% !important;
+    padding:50px;
+}
+.right-carousel .carousel__control  {
+    possition:absolute;
+    background:red !important;
+    top: 70% !important;
+    padding:50px;
+}
+/*fengyCarousel*/
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    background: #fff;
+}
+
+p a{
+    font-size:1em !important;
+    font-weight: bold;
+    color:#ff7043!important;
+    text-decoration: none !important;
+}
