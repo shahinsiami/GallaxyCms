@@ -25,6 +25,5 @@ This project is free to use and released solely for educational purposes.
 
 ```
 
-🌐 Contact
-If you'd like to get in touch, visit my website: Shahin.page
-
+## 🌐 Contact  
+If you'd like to get in touch, visit my website: [Shahin.page](https://shahin.page)
